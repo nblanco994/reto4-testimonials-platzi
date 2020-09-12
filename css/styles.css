@@ -42,7 +42,7 @@ body {
   background: white;
   margin-top: -7%;
   padding: 0px;
-  width: 30%;
+  width: 28%;
   border-radius: 21px;
   display: flex;
 }
@@ -56,7 +56,7 @@ body {
 }
 
 .button_slide .img1, .img2 {
-  width: 34%;
+  width: 37%;
 }
 
 .text-info {
