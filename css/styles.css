@@ -100,7 +100,7 @@ body {
   body {
     background-size: 35%;
     background-position: bottom left;
-  } 
+  }
   .container {
     margin-top: 20px;
     display: flex;
@@ -111,12 +111,11 @@ body {
     width: 500px;
     text-align: left;
     padding-top: 40px;
-    padding-left:90px;
+    padding-left: 90px;
   }
   .text-info p {
     width: 670px;
     font-size: 30px;
-    
   }
   .text-info h1 {
     font-size: 18px;
@@ -144,5 +143,171 @@ body {
   }
   .button_slide .img1, .img2 {
     width: 28%;
+  }
+}
+
+@media screen and (device-width: 768px) {
+  #sidebar {
+    display: none;
+  }
+  #menu {
+    text-align: center;
+  }
+  .image-info {
+    padding: 10px;
+    margin-top: 70px;
+    background-image: url(../images/pattern-bg.svg);
+    background-size: 70%;
+  }
+  .image {
+    width: 58%;
+    margin-top: 34px;
+  }
+  .button-container {
+    height: 70px;
+    width: 21%;
+    border-radius: 43px;
+  }
+  .button_slide .img1, .img2 {
+    width: 25%;
+  }
+  .text-info {
+    background-size: 13%;
+    padding: 80px;
+    margin-top: 30px;
+  }
+  .text-info p {
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: -20px;
+  }
+  .text-info h1 {
+    font-size: 24px;
+  }
+  .text-info h2 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (device-width: 411px) and (device-height: 823px) {
+  #sidebar {
+    display: none;
+  }
+  #menu {
+    text-align: center;
+  }
+  .image-info {
+    padding: 10px;
+    margin-top: 70px;
+    background-image: url(../images/pattern-bg.svg);
+    background-size: 80%;
+  }
+  .image {
+    width: 68%;
+    margin-top: 39px;
+  }
+  .button-container {
+    height: 50px;
+    width: 29%;
+    border-radius: 43px;
+  }
+  .button_slide .img1, .img2 {
+    width: 26%;
+  }
+  .text-info {
+    background-size: 16%;
+    padding: 60px;
+    margin-top: 30px;
+  }
+  .text-info p {
+    margin-bottom: 30px;
+    font-size: 19px;
+    margin-top: -20px;
+  }
+  .text-info h1 {
+    font-size: 18px;
+  }
+  .text-info h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) {
+  #sidebar {
+    display: none;
+  }
+  #menu {
+    text-align: center;
+  }
+  .image-info {
+    padding: 10px;
+    margin-top: 10px;
+    background-image: url(../images/pattern-bg.svg);
+    background-size: 100%;
+  }
+  .image {
+    width: 90%;
+    margin-top: 39px;
+  }
+  .button-container {
+    height: 35px;
+    width: 29%;
+    border-radius: 43px;
+  }
+  .button_slide .img1, .img2 {
+    width: 32%;
+  }
+  .text-info {
+    margin-top: 10px;
+  }
+  .text-info p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .text-info h1 {
+    font-size: 14px;
+  }
+  .text-info h2 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (device-width: 375px) and (device-height: 812px) {
+  #sidebar {
+    display: none;
+  }
+  #menu {
+    text-align: center;
+  }
+  .image-info {
+    padding: 14px;
+    margin-top: 60px;
+  }
+  .image {
+    width: 87%;
+    margin-top: 14px;
+  }
+  .button-container {
+    height: 39px;
+    width: 29%;
+  }
+  .button_slide .img1, .img2 {
+    width: 32%;
+  }
+  .text-info {
+    margin-top: 40px;
+  }
+  .text-info p {
+    margin-bottom: 25px;
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  .text-info h1 {
+    font-size: 19px;
+  }
+  .text-info h2 {
+    font-size: 19px;
   }
 }
