@@ -1,10 +1,13 @@
 body {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0px;
+  margin: 0px;
   font-family: "Inter", sans-serif;
   background-image: url(../images/pattern-curve.svg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: contain;
-  background-position: bottom;
+  background-position: bottom left;
   object-fit: none;
 }
 
@@ -15,11 +18,12 @@ body {
 .container {
   width: 100%;
   height: 100%;
+  padding-top: 17px;
 }
 
 .image-info {
   margin: 0 40px;
-  margin-top: 30px;
+  margin-top: 0px;
   background-image: url(../images/pattern-bg.svg);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -90,7 +94,7 @@ body {
   color: hsl(240, 18%, 77%);
 }
 
-@media screen and (min-device-width: 1024px) {
+@media screen and (device-width: 1280px) {
   #sidebar {
     display: none;
   }
@@ -98,8 +102,7 @@ body {
     text-align: center;
   }
   body {
-    background-size: 35%;
-    background-position: bottom left;
+    background-size: auto;
   }
   .container {
     margin-top: 20px;
@@ -146,12 +149,70 @@ body {
   }
 }
 
+@media screen and (device-width: 1024px) {
+  #sidebar {
+    display: none;
+  }
+  #menu {
+    text-align: center;
+  }
+  body {
+    background-size: auto;
+    background-position: bottom left;
+  }
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .text-info {
+    width: 470px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 50px;
+  }
+  .text-info p {
+    width: 670px;
+    font-size: 25px;
+  }
+  .text-info h1 {
+    font-size: 18px;
+    display: inline;
+  }
+  .text-info h2 {
+    font-size: 18px;
+    display: inline;
+  }
+  .image-info {
+    width: 55%;
+    background-size: 100%;
+    padding: 25px;
+  }
+  .image {
+    height: 100%;
+    width: 85%;
+  }
+  .button-container {
+    border-radius: 30px;
+    margin-left: -50%;
+    margin-top: -30px;
+    width: 27%;
+    height: 42px;
+  }
+  .button_slide .img1, .img2 {
+    width: 29%;
+  }
+}
+
 @media screen and (device-width: 768px) {
   #sidebar {
     display: none;
   }
   #menu {
     text-align: center;
+  }
+  body {
+    background-size: auto;
   }
   .image-info {
     padding: 10px;
@@ -199,13 +260,13 @@ body {
   }
   .image-info {
     padding: 10px;
-    margin-top: 70px;
+    margin-top: 30px;
     background-image: url(../images/pattern-bg.svg);
-    background-size: 80%;
+    background-size: 90%;
   }
   .image {
-    width: 68%;
-    margin-top: 39px;
+    width: 78%;
+    margin-top: 3px;
   }
   .button-container {
     height: 50px;
@@ -233,6 +294,44 @@ body {
   }
 }
 
+@media screen and (device-width: 375px) and (device-height: 812px) {
+  #sidebar {
+    display: none;
+  }
+  #menu {
+    text-align: center;
+  }
+  .image-info {
+    padding: 14px;
+    margin-top: 30px;
+  }
+  .image {
+    width: 87%;
+    margin-top: 14px;
+  }
+  .button-container {
+    height: 41px;
+    width: 29%;
+  }
+  .button_slide .img1, .img2 {
+    width: 32%;
+  }
+  .text-info {
+    margin-top: 40px;
+  }
+  .text-info p {
+    margin-bottom: 25px;
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  .text-info h1 {
+    font-size: 19px;
+  }
+  .text-info h2 {
+    font-size: 19px;
+  }
+}
+
 @media screen and (device-width: 320px) and (device-height: 568px) {
   #sidebar {
     display: none;
@@ -242,7 +341,7 @@ body {
   }
   .image-info {
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
     background-image: url(../images/pattern-bg.svg);
     background-size: 100%;
   }
@@ -271,43 +370,5 @@ body {
   }
   .text-info h2 {
     font-size: 14px;
-  }
-}
-
-@media screen and (device-width: 375px) and (device-height: 812px) {
-  #sidebar {
-    display: none;
-  }
-  #menu {
-    text-align: center;
-  }
-  .image-info {
-    padding: 14px;
-    margin-top: 60px;
-  }
-  .image {
-    width: 87%;
-    margin-top: 14px;
-  }
-  .button-container {
-    height: 39px;
-    width: 29%;
-  }
-  .button_slide .img1, .img2 {
-    width: 32%;
-  }
-  .text-info {
-    margin-top: 40px;
-  }
-  .text-info p {
-    margin-bottom: 25px;
-    font-size: 22px;
-    margin-top: 10px;
-  }
-  .text-info h1 {
-    font-size: 19px;
-  }
-  .text-info h2 {
-    font-size: 19px;
   }
 }
