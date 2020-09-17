@@ -94,118 +94,50 @@ body {
   color: hsl(240, 18%, 77%);
 }
 
-@media screen and (device-width: 1280px) {
+@media screen and (device-width: 411px) and (device-height: 823px) {
   #sidebar {
     display: none;
   }
   #menu {
     text-align: center;
   }
-  body {
-    background-size: auto;
-  }
-  .container {
-    margin-top: 0px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-  .text-info {
-    width: 500px;
-    text-align: left;
-    padding-top: 40px;
-    padding-left: 90px;
-  }
-  .text-info p {
-    width: 670px;
-    font-size: 30px;
-  }
-  .text-info h1 {
-    font-size: 18px;
-    display: inline;
-  }
-  .text-info h2 {
-    font-size: 18px;
-    display: inline;
-  }
   .image-info {
-    width: 55%;
-    margin-top: 15px;
-    background-size: 100%;
-    padding: 25px;
+    padding: 10px;
+    margin-top: 30px;
+    background-image: url(../images/pattern-bg.svg);
+    background-size: 90%;
   }
   .image {
-    height: 100%;
-    width: 85%;
+    width: 78%;
+    margin-top: 3px;
   }
   .button-container {
-    border-radius: 30px;
-    margin-left: -50%;
-    margin-top: -30px;
-    width: 17%;
-    height: 47px;
-  }
-  .button_slide .img1, .img2 {
-    width: 28%;
-  }
-}
-
-@media screen and (device-width: 1024px) {
-  #sidebar {
-    display: none;
-  }
-  #menu {
-    text-align: center;
-  }
-  body {
-    background-size: auto;
-    background-position: bottom left;
-  }
-  .container {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-  .text-info {
-    width: 470px;
-    text-align: left;
-    padding-top: 40px;
-    padding-left: 50px;
-  }
-  .text-info p {
-    width: 670px;
-    font-size: 25px;
-  }
-  .text-info h1 {
-    font-size: 18px;
-    display: inline;
-  }
-  .text-info h2 {
-    font-size: 18px;
-    display: inline;
-  }
-  .image-info {
-    width: 55%;
-    background-size: 100%;
-    padding: 25px;
-  }
-  .image {
-    height: 100%;
-    width: 85%;
-  }
-  .button-container {
-    border-radius: 30px;
-    margin-left: -50%;
-    margin-top: -30px;
-    width: 27%;
-    height: 42px;
-  }
-  .button_slide .img1, .img2 {
+    height: 50px;
     width: 29%;
+    border-radius: 43px;
+  }
+  .button_slide .img1, .img2 {
+    width: 26%;
+  }
+  .text-info {
+    background-size: 16%;
+    padding: 60px;
+    margin-top: 30px;
+  }
+  .text-info p {
+    margin-bottom: 30px;
+    font-size: 19px;
+    margin-top: -20px;
+  }
+  .text-info h1 {
+    font-size: 18px;
+  }
+  .text-info h2 {
+    font-size: 18px;
   }
 }
 
-@media screen and (device-width: 768px) {
+@media screen and (min-width: 768px) {
   #sidebar {
     display: none;
   }
@@ -252,124 +184,117 @@ body {
   }
 }
 
-@media screen and (device-width: 411px) and (device-height: 823px) {
+@media screen and (min-width: 1024px) {
   #sidebar {
     display: none;
   }
   #menu {
     text-align: center;
   }
+  body {
+    background-size: auto;
+    background-position: bottom left;
+  }
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .text-info {
+    width: 490px;
+    text-align: start;
+    margin-top: 60px;
+  }
+  .text-info p {
+    width: 670px;
+    margin-top: -40px;
+    margin-right: -269px;
+    font-size: 25px;
+  }
+  .text-info h1 {
+    font-size: 18px;
+    display: inline;
+  }
+  .text-info h2 {
+    font-size: 18px;
+    display: inline;
+  }
   .image-info {
-    padding: 10px;
+    width: 85%;
+    height: auto;
+    background-size: 88%;
     margin-top: 30px;
-    background-image: url(../images/pattern-bg.svg);
-    background-size: 90%;
+    padding: 10px;
   }
   .image {
-    width: 78%;
-    margin-top: 3px;
+    height: 100%;
+    width: 72%;
   }
   .button-container {
-    height: 50px;
-    width: 29%;
-    border-radius: 43px;
+    border-radius: 30px;
+    margin-left: -40%;
+    margin-top: -30px;
+    width: 23%;
+    height: 45px;
   }
   .button_slide .img1, .img2 {
     width: 26%;
   }
-  .text-info {
-    background-size: 16%;
-    padding: 60px;
-    margin-top: 30px;
-  }
-  .text-info p {
-    margin-bottom: 30px;
-    font-size: 19px;
-    margin-top: -20px;
-  }
-  .text-info h1 {
-    font-size: 18px;
-  }
-  .text-info h2 {
-    font-size: 18px;
-  }
 }
 
-@media screen and (device-width: 375px) and (device-height: 812px) {
+
+@media screen and (min-width: 1280px) {
   #sidebar {
     display: none;
   }
   #menu {
     text-align: center;
   }
-  .image-info {
-    padding: 14px;
-    margin-top: 30px;
+  body {
+    background-size: auto;
   }
-  .image {
-    width: 87%;
-    margin-top: 14px;
-  }
-  .button-container {
-    height: 41px;
-    width: 29%;
-  }
-  .button_slide .img1, .img2 {
-    width: 32%;
-  }
-  .text-info {
-    margin-top: 40px;
-  }
-  .text-info p {
-    margin-bottom: 25px;
-    font-size: 22px;
-    margin-top: 10px;
-  }
-  .text-info h1 {
-    font-size: 19px;
-  }
-  .text-info h2 {
-    font-size: 19px;
-  }
-}
-
-@media screen and (device-width: 320px) and (device-height: 568px) {
-  #sidebar {
-    display: none;
-  }
-  #menu {
-    text-align: center;
-  }
-  .image-info {
-    padding: 10px;
+  .container {
     margin-top: 0px;
-    background-image: url(../images/pattern-bg.svg);
-    background-size: 100%;
-  }
-  .image {
-    width: 90%;
-    margin-top: 39px;
-  }
-  .button-container {
-    height: 35px;
-    width: 29%;
-    border-radius: 43px;
-  }
-  .button_slide .img1, .img2 {
-    width: 32%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
   }
   .text-info {
-    margin-top: 10px;
+    width: 500px;
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 90px;
   }
   .text-info p {
-    margin-bottom: 20px;
-    font-size: 15px;
-    margin-top: 10px;
+    width: 670px;
+    font-size: 30px;
   }
   .text-info h1 {
-    font-size: 14px;
+    font-size: 18px;
+    display: inline;
   }
   .text-info h2 {
-    font-size: 14px;
+    font-size: 18px;
+    display: inline;
+  }
+  .image-info {
+    width: 55%;
+    margin-top: 15px;
+    background-size: 100%;
+    padding: 25px;
+  }
+  .image {
+    height: 100%;
+    width: 85%;
+  }
+  .button-container {
+    border-radius: 30px;
+    margin-left: -50%;
+    margin-top: -30px;
+    width: 17%;
+    height: 47px;
+  }
+  .button_slide .img1, .img2 {
+    width: 28%;
   }
 }
